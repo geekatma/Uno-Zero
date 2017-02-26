@@ -1,4 +1,7 @@
-// Robo India Line Follower Tutorial.
+// The Clumsy Robot ----------------------------------
+// Neeraj Aggarwal
+// A Very Clumsy Travelling Bot that tries to turn left or right to
+// avoid obstacles. 
 
 // declaring Shield
 int dataPin = 8;        
@@ -32,9 +35,6 @@ void setup()
 void loop()
 {
 
-
-
-  
 L_sensor_val =  analogRead(LeftSensor);   // Reading Left sensor data
 R_sensor_val =  analogRead(RightSensor);  // Reading Right sensor data
 
